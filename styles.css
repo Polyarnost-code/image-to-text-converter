@@ -443,7 +443,7 @@ select:focus,
 
 .ad-card h3 {
   margin-top: 4px;
-  font-size: 1.42rem;
+  font-size: 1.28rem;
   color: #8e331a;
 }
 
@@ -456,21 +456,21 @@ select:focus,
 }
 
 .ad-logo {
-  width: min(100%, 220px);
+  width: min(100%, 150px);
   height: auto;
   object-fit: contain;
-  margin: 8px 0 2px;
+  margin: 4px 0 0;
   filter: drop-shadow(0 14px 24px rgba(255, 132, 90, 0.26));
 }
 
 .ad-card .ad-cta {
   display: inline-flex;
-  margin-top: 16px;
-  padding: 10px 14px;
+  margin-top: 12px;
+  padding: 9px 13px;
   border-radius: 999px;
   background: linear-gradient(180deg, #ff8d68 0%, #ef6f45 100%);
   color: #fff7f1;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 800;
   box-shadow: 0 10px 18px rgba(239, 111, 69, 0.28);
 }
