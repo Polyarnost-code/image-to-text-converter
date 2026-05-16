@@ -432,28 +432,55 @@ select:focus,
   text-decoration: none;
   color: inherit;
   background:
-    linear-gradient(160deg, rgba(30, 74, 128, 0.08), rgba(88, 191, 229, 0.18)),
+    radial-gradient(circle at top right, rgba(255, 180, 128, 0.62), transparent 36%),
+    linear-gradient(160deg, rgba(255, 140, 102, 0.18), rgba(255, 218, 194, 0.94)),
     var(--card);
+  border: 1px solid rgba(255, 140, 102, 0.34);
+  box-shadow:
+    0 20px 34px rgba(207, 92, 54, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 .ad-card h3 {
-  margin-top: 10px;
-  font-size: 1.3rem;
+  margin-top: 4px;
+  font-size: 1.28rem;
+  color: #8e331a;
+}
+
+.ad-card p {
+  color: #7b4638;
+}
+
+.ad-eyebrow {
+  color: #c55432;
+}
+
+.ad-logo {
+  width: min(100%, 150px);
+  height: auto;
+  object-fit: contain;
+  margin: 4px auto 0;
+  display: block;
+  filter: drop-shadow(0 14px 24px rgba(255, 132, 90, 0.26));
 }
 
 .ad-card .ad-cta {
   display: inline-flex;
-  margin-top: 16px;
-  padding: 10px 14px;
+  margin-top: 12px;
+  padding: 9px 13px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.88);
-  color: #11457d;
-  font-size: 14px;
+  background: linear-gradient(180deg, #ff8d68 0%, #ef6f45 100%);
+  color: #fff7f1;
+  font-size: 13px;
   font-weight: 800;
+  box-shadow: 0 10px 18px rgba(239, 111, 69, 0.28);
 }
 
 .ad-card:hover {
   transform: translateY(-2px);
+  box-shadow:
+    0 26px 40px rgba(207, 92, 54, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 
 .content-card {
